@@ -3,7 +3,8 @@ const { Schema } = mongoose
 
 const QuizTimeLimitSchema = new Schema({
     timelimit: {
-        type: Number
+        type: Number,
+        default:10
     }
 })
 

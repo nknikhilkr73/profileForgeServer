@@ -46,8 +46,8 @@ const sendEmailNotifications = (emails) => {
         const mailOptions = {
             from: 'nkmajorkr@gmail.com', // Your email address
             to: email,
-            subject: 'Quiz Started',
-            text: 'The quiz has started. Please login to take the quiz.',
+            subject: 'Quiz is Live',
+            text: 'Dear students, the quiz session is live. Kindly attend the following within the window starting from now,till 3 hours.All students must attend the quiz without fail.To attend the quiz everyone please login to their respective id. Quiz link: https://profileforgeproject.netlify.app/',
         };
 
         // Send email

@@ -6,7 +6,7 @@ const router = express.Router();
 // Endpoint to get the status of the quiz
 router.get('/quizstatus', (req, res) => {
     // Check if the quiz has started (you can implement your own logic here)
-    const quizStarted = true; // Example: Set to true if the quiz has started
+    const quizStarted = false; // Example: Set to true if the quiz has started
 
     // If the quiz has started, calculate its end time (e.g., 30 minutes from the start time)
     let quizEndTime = null;
